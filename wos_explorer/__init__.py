@@ -1,1 +1,1 @@
-from .matcher import match_articles
+from . import article_finder

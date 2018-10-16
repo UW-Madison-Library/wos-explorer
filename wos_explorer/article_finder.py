@@ -18,12 +18,21 @@ def contains_phrase(contents, pattern):
             return True
     return False
 
-def match_articles(phrase, filepath):
+def match_phrase(phrase, filepath):
     matches = []
     pattern = re.compile(phrase, re.IGNORECASE)
     with open(filepath) as file:
         for line in file:
             article = json.loads(line)
             if contains_phrase(article, pattern):
+                matches.append(article)
+    return matches
+
+def match_ids(ids, filepath):
+    matches = []
+    with open(filepath) as file:
+        for line in file:
+            article = json.loads(line)
+            if article['id'] in ids:
                 matches.append(article)
     return matches
