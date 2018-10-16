@@ -1,0 +1,15 @@
+# Compiled python modules.
+__pycache__
+*.pyc
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
+# Ignore temp files generated from tests
+.pytest_cache/
+
+# Ignore the tmp directory for random test scripts, etc.
+/tmp/
