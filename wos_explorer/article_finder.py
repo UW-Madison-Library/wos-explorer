@@ -28,11 +28,17 @@ def match_phrase(phrase, filepath):
                 matches.append(article)
     return matches
 
-def match_ids(ids, filepath):
+def match_ids(ids, input_filepath, output_filepath=None):
     matches = []
-    with open(filepath) as file:
-        for line in file:
+    with open(input_filepath) as input_file:
+        output_file = None if output_filepath is None else open(output_filepath, 'w')
+        for line in input_file:
             article = json.loads(line)
             if article['id'] in ids:
-                matches.append(article)
+                if output_filepath is None:
+                    matches.append(article)
+                else:
+                    output_file.write(line)
+        if output_file is not None:
+            output_file.close()
     return matches
