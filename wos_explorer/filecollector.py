@@ -7,7 +7,7 @@ class FileCollector:
         self.file = open(self.filepath, 'w')
 
     def collect(self, article):
-        self.file.write(json.dumps(article) + '\n')
+        self.file.write(json.dumps(article.data) + '\n')
 
     def close(self):
         self.file.close
