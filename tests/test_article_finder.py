@@ -1,6 +1,5 @@
 from wos_explorer import article_finder
-from wos_explorer.filecollector import FileCollector
-from wos_explorer.listcollector import ListCollector
+from wos_explorer.collectors import FileCollector, ListCollector
 from wos_explorer.matchers import IdMatcher, PhraseMatcher
 
 def test_case_insensitive_phrase_matching(articles_sample):

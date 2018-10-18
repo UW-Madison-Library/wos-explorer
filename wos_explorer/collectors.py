@@ -1,5 +1,6 @@
 import json
 
+
 class FileCollector:
 
     def __init__(self, filepath):
@@ -11,3 +12,15 @@ class FileCollector:
 
     def close(self):
         self.file.close
+
+
+class ListCollector:
+
+    def __init__(self):
+        self.articles = []
+
+    def collect(self, article):
+        self.articles.append(article)
+
+    def close(self):
+        return self.articles
