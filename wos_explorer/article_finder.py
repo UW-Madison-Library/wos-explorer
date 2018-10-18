@@ -1,6 +1,3 @@
-import sys
-import json
-import re
 from .article import Article
 
 def match_articles(input_filepath, matcher, collector):
