@@ -1,6 +1,8 @@
 import sys
 import json
 import re
+from .filecollector import FileCollector
+from .listcollector import ListCollector
 
 def collect_values(contents, values):
     if isinstance(contents, dict):
@@ -29,16 +31,10 @@ def match_phrase(phrase, filepath):
     return matches
 
 def match_ids(ids, input_filepath, output_filepath=None):
-    matches = []
+    collector = FileCollector(output_filepath) if output_filepath else ListCollector()
     with open(input_filepath) as input_file:
-        output_file = None if output_filepath is None else open(output_filepath, 'w')
         for line in input_file:
             article = json.loads(line)
             if article['id'] in ids:
-                if output_filepath is None:
-                    matches.append(article)
-                else:
-                    output_file.write(line)
-        if output_file is not None:
-            output_file.close()
-    return matches
+                collector.collect(article)
+    return collector.close()
