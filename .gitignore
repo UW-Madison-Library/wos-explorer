@@ -13,3 +13,6 @@ __pycache__
 
 # Ignore the tmp directory for random test scripts, etc.
 /tmp/
+
+# Ignore a log directory
+/log/
