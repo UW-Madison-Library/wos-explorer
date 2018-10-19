@@ -23,3 +23,9 @@ def test_matching_with_output_file(articles_sample, tmpdir):
     articles = article_finder.match_articles(output_filepath, IdMatcher(ids), ListCollector())
     parsed_ids = [article['id'] for article in articles]
     assert sorted(parsed_ids) == sorted(ids)
+
+def test_collecting_references(articles_sample):
+    ids = ["WOS:000250583700033", "WOS:000246216800044"]
+    articles = article_finder.match_articles(articles_sample, IdMatcher(ids), ListCollector())
+    refs_by_year = article_finder.collect_cited_references(articles)
+    assert "WOS:000084608600019" in refs_by_year["2000"]
