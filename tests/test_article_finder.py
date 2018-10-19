@@ -16,5 +16,10 @@ def test_matching_with_output_file(articles_sample, tmpdir):
     ids = ["WOS:000251423400047", "WOS:000249481100010"]
     output_filepath = str(tmpdir.join("matched-articles.json"))
     article_finder.match_articles(articles_sample, IdMatcher(ids), FileCollector(output_filepath))
-    articles = article_finder.match_articles(articles_sample, IdMatcher(ids), ListCollector())
-    assert len(articles) == 2
+
+    num_lines = sum(1 for line in open(output_filepath))
+    assert num_lines == len(ids)
+
+    articles = article_finder.match_articles(output_filepath, IdMatcher(ids), ListCollector())
+    parsed_ids = [article['id'] for article in articles]
+    assert sorted(parsed_ids) == sorted(ids)
