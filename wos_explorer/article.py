@@ -11,6 +11,9 @@ class Article:
     def values(self):
         return self._collect_values(self.data, [])
 
+    def matches(self, criteria):
+        return criteria.matches(self)
+
     def _collect_values(self, contents, values):
         if isinstance(contents, dict):
             self._collect_values(list(contents.values()), values)

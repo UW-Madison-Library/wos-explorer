@@ -7,7 +7,7 @@ class FileCollector:
         self.filepath = filepath
         self.file = open(self.filepath, 'w')
 
-    def collect(self, article):
+    def add(self, article):
         self.file.write(json.dumps(article.data) + '\n')
 
     def close(self):
@@ -19,7 +19,7 @@ class ListCollector:
     def __init__(self):
         self.articles = []
 
-    def collect(self, article):
+    def add(self, article):
         self.articles.append(article)
 
     def close(self):
