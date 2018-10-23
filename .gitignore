@@ -16,3 +16,6 @@ __pycache__
 
 # Ignore a log directory
 /log/
+
+# Ignore the VS Code config directory
+/.vscode/
