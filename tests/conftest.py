@@ -9,3 +9,7 @@ def example_path():
 @pytest.fixture()
 def articles_sample():
     return path.join(example_path(), 'articles-sample.json')
+
+@pytest.fixture()
+def output_filepath(tmpdir):
+    return str(tmpdir.join("matched-articles.json"))
