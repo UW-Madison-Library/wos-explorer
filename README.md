@@ -15,6 +15,6 @@ The `ArticleCollection` object will wrap the files themselves and behaves like a
 
 ```python
 filepath = '/path/to/articles.json'
-for article in ArticleCollection(filepath)
+for article in ArticleCollection(filepath):
     print(article['id'], article['title'])
 ```
