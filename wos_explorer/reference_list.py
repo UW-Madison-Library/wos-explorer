@@ -13,6 +13,9 @@ class ReferenceList:
         for year, ids in self.references.items():
             yield (year, ids)
 
+    def __len__(self):
+        return len(self.references)
+
     def ids(self):
         return {id for ids in self.references.values() for id in ids}
 

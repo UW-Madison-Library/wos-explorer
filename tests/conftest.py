@@ -1,7 +1,20 @@
 from os import path
 from wos_explorer.article_collection import ArticleCollection
+from wos_explorer.article import Article
 
 import pytest
+
+@pytest.fixture()
+def single_article_path(example_path):
+    return path.join(example_path + '/single-article.json')
+
+@pytest.fixture()
+def single_article(single_article_path):
+    return Article(open(single_article_path).read())
+
+@pytest.fixture()
+def single_article_no_refs(example_path):
+    return Article(open(path.join(example_path + '/single-article-no-references.json')).read())
 
 @pytest.fixture()
 def example_path():

@@ -36,16 +36,9 @@ class ArticleCollection:
         return ArticleCollection(output_filepath)
 
     def reference_list(self):
-        # self.reference_filepath = self._reference_filepath()
         reflist = ReferenceList()
         for article in self:
-            if article['references'] is not None:
-                for reference in article['references']:
-                    year = reference['year'] if reference['year'] is not None else ''
-                    id   = reference['id']   if reference['id']   is not None else ''
+            for year, ids in article.reference_list():
+                for id in ids:
                     reflist.add(year, id)
         return reflist
-    
-    # def _reference_filepath(self):
-    #     basepath, extname = os.path.splitext(self.filepath)
-    #     return basepath + '-references.tsv'

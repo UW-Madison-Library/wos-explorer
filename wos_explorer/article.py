@@ -1,4 +1,6 @@
 import json
+from .reference_list import ReferenceList
+
 
 class Article:
 
@@ -13,6 +15,17 @@ class Article:
 
     def matches(self, criteria):
         return criteria.matches(self)
+
+    def references(self):
+        return [] if self['references'] is None else self['references']
+
+    def reference_list(self):
+        reflist = ReferenceList()
+        for reference in self.references():
+            year = reference['year'] if reference['year'] is not None else ''
+            id   = reference['id']   if reference['id']   is not None else ''
+            reflist.add(year, id)
+        return reflist
 
     def _collect_values(self, contents, values):
         if isinstance(contents, dict):

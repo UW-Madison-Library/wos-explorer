@@ -26,3 +26,13 @@ def test_reflist_values(articles_sample_reflist):
 
 def test_reflist_iteration(articles_sample_reflist):
     assert sum(1 for reference in articles_sample_reflist) == 20
+
+def test_reference_list_ids(single_article_path):
+    expected = ['000303524000001.127', 'WOS:000074141300003', 'WOS:000076444100008', 'WOS:000084608600019', 'WOS:000169756700007', 'WOS:000185914300012', 'WOS:000264798000005.30', 'WOS:A1997XH27400004']
+    ref_list = ArticleCollection(single_article_path).reference_list()
+    assert sorted(ref_list.ids()) == expected
+
+def test_reference_list_years(single_article_path):
+    expected = ['1996', '1997', '1998', '1999', '2000', '2001', '2003']
+    ref_list = ArticleCollection(single_article_path).reference_list()
+    assert sorted(ref_list.years()) == expected
