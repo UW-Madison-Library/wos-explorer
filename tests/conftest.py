@@ -21,8 +21,8 @@ def example_path():
     return path.join(path.dirname(path.abspath(__file__)), 'examples')
 
 @pytest.fixture()
-def articles_sample():
-    return path.join(example_path(), 'articles-sample.json')
+def articles_sample(example_path):
+    return path.join(example_path, 'articles-sample.json')
 
 @pytest.fixture()
 def output_filepath(tmpdir):
