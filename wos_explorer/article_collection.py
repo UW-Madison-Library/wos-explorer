@@ -15,7 +15,7 @@ class ArticleCollection:
 
     def __iter__(self):
         logger.info("Opening File: %s" % self.filepath)
-        with open(self.filepath, 'r') as file:
+        with open(self.filepath, 'r', encoding='utf-8') as file:
             count = 0
             for line in file:
                 yield Article(line)
@@ -27,7 +27,7 @@ class ArticleCollection:
             logger.info("Total Articles Read in File: " + str(count))
 
     def select(self, criteria, output_filepath):
-        with open(output_filepath, 'w') as output_file:
+        with open(output_filepath, 'w', encoding='utf-8') as output_file:
             for article in self:
                 if article.matches(criteria):
                     output_file.write(json.dumps(article.data) + '\n')
