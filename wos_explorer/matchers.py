@@ -23,3 +23,20 @@ class PhraseMatcher:
             if (isinstance(value, str) and self.pattern.search(value)):
                 return True
         return False
+
+
+class AffiliationMatcher:
+
+    def __init__(self, institution_names):
+        self.names = set(institution_names)
+
+    def matches(self, article):
+        if article["addresses"] is not None:
+            affil_addrs = filter(affiliated_address, [address for address in article["addresses"]])
+            orgs = {org for address in affil_addrs for org in address["organizations"]}
+            if len(self.names & orgs) > 0:
+                return True
+        return False
+
+def affiliated_address(address):
+    return address["organizations"] is not None

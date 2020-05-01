@@ -31,3 +31,7 @@ def output_filepath(tmpdir):
 @pytest.fixture()
 def articles_sample_reflist(tmpdir, articles_sample):
     return ArticleCollection(articles_sample).reference_list()
+
+@pytest.fixture()
+def affiliated_sample(example_path):
+    return path.join(example_path, 'affiliated.json')
