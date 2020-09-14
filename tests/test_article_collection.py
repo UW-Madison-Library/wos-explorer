@@ -1,4 +1,4 @@
-from wos_explorer.matchers import IdMatcher, PhraseMatcher, AffiliationMatcher
+from wos_explorer.matchers import IdMatcher, PhraseMatcher, AffiliationMatcher, SourceTitleMatcher
 from wos_explorer.article_collection import ArticleCollection
 
 def test_article_parsing(articles_sample):
@@ -23,6 +23,11 @@ def test_affiliation_matching_from_list(affiliated_sample, output_filepath):
     uwmadison_names = ["University of Wisconsin Madison", "Univ Wisconsin", "University Wisconsin Health"]
     matches = ArticleCollection(affiliated_sample).select(AffiliationMatcher(uwmadison_names), output_filepath)
     assert sum(1 for article in matches) == 1
+
+def test_source_title_matching(articles_sample, output_filepath):
+    journal_titles = ["THEORETICAL FOUNDATIONS OF CHEMICAL ENGINEERING", "DOWN BEAT"]
+    matches = ArticleCollection(articles_sample).select(SourceTitleMatcher(journal_titles), output_filepath)
+    assert sum(1 for article in matches) == 2
 
 def test_reflist_ids(articles_sample_reflist):
     assert len(articles_sample_reflist.ids()) == 42

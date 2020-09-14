@@ -40,3 +40,14 @@ class AffiliationMatcher:
 
 def affiliated_address(address):
     return address["organizations"] is not None
+
+
+class SourceTitleMatcher:
+
+    def __init__(self, source_titles):
+        self.source_titles = set(source_titles)
+
+    def matches(self, article):
+        if article["source_title"] is not None and article["source_title"] in self.source_titles:
+            return True
+        return  False
