@@ -51,3 +51,16 @@ class SourceTitleMatcher:
         if article["source_title"] is not None and article["source_title"] in self.source_titles:
             return True
         return  False
+
+
+class CitationMatcher:
+
+    def __init__(self, cited_articled_ids):
+        self.cited_articled_ids = set(cited_articled_ids)
+
+    def matches(self, article):
+        reference_ids = [reference["id"] for reference in article.references()]
+        if len( self.cited_articled_ids.intersection(reference_ids) ) > 0:
+            return True
+        else:
+            return False
