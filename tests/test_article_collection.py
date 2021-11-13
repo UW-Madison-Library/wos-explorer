@@ -36,6 +36,11 @@ def test_phrase_matching_in_word_boundaries(articles_sample, output_filepath):
     matches = ArticleCollection(articles_sample).select(PhraseMatcher("of the", ["abstract_text"]), output_filepath)
     assert sum(1 for article in matches) == 2
 
+def test_phrase_matching_word_boundary_start(articles_sample, output_filepath):
+    # Don't match "synthesis" in a search for "thesis"
+    matches = ArticleCollection(articles_sample).select(PhraseMatcher("thesis", ["title"]), output_filepath)
+    assert sum(1 for article in matches) == 0
+
 def test_phrase_matching_for_wildcard(articles_sample, output_filepath):
     matches = ArticleCollection(articles_sample).select(PhraseMatcher("of the*", ["abstract_text"]), output_filepath)
     assert sum(1 for article in matches) == 3

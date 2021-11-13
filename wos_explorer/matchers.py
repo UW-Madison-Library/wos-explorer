@@ -19,6 +19,7 @@ class PhraseMatcher:
 
     def __init__(self, phrase, fields = []):
         self.search_tokens = [p if p[len(p) - 1] == "*" else p.strip() + "$" for p in phrase.split()]
+        self.search_tokens = [p if p[0] == "*" else "^" + p.strip() for p in self.search_tokens]
         self.patterns      = [re.compile(search_str, re.IGNORECASE) for search_str in self.search_tokens]
         self.fields        = fields
 
