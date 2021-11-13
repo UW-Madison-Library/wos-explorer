@@ -1,4 +1,6 @@
 import re
+from nltk.util import ngrams
+from nltk import word_tokenize
 
 
 class IdMatcher:
@@ -15,13 +17,33 @@ class IdMatcher:
 
 class PhraseMatcher:
 
-    def __init__(self, phrase):
-        self.pattern = re.compile(phrase, re.IGNORECASE)
+    def __init__(self, phrase, fields = []):
+        self.search_tokens = [p if p[len(p) - 1] == "*" else p.strip() + "$" for p in phrase.split()]
+        self.patterns      = [re.compile(search_str, re.IGNORECASE) for search_str in self.search_tokens]
+        self.fields        = fields
 
     def matches(self, article):
-        for value in article.values():
-            if (isinstance(value, str) and self.pattern.search(value)):
+        values = []
+        if len(self.fields) > 0:
+            for field in self.fields:
+                values.append(article[field])
+        else:
+            values = article.values()
+
+        # Convert the document's fields into lists of words (simple whitespace split)
+        article_terms = [word_tokenize(field_val) for field_val in values if field_val is not None]
+
+        # For each set of words from each field being searched in the article...
+        for term_set in article_terms:
+            # Convert the words into n-grams sized according to the search phrase's token count
+            n_grams = ngrams(term_set, len(self.patterns))
+
+            # Search the document's n-gram items for matches against the search phrase's patterns. The n-gram tuple order
+            # must match the phrase pattern order.
+            if any([ all([self.patterns[i].search(g) for i, g in enumerate(gram)]) for gram in n_grams ]):
                 return True
+
+        # If this line is hit, no tuples matched, so the current document is not a match.
         return False
 
 

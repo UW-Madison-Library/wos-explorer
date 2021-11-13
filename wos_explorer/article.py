@@ -34,5 +34,6 @@ class Article:
             for item in contents:
                 self._collect_values(item, values)
         else:
-            values.append(contents)
+            if contents is not None:
+                values.append(str(contents))
         return values

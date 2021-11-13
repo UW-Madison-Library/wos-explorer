@@ -30,3 +30,12 @@ filepath = '/path/to/articles.json'
 print( ArticleCollection(filepath).reference_list().years() )
 # => ['1996', '1997', '1998', '1998', '1999', '2000', '2001', '2003']
 ```
+
+## Dependencies
+
+The `wos_explorer` package depends on the `nltk`, the [Natural Language Toolkit](https://www.nltk.org/), specifically for its word tokenizer and n-grams functionality for WOS Explorer's phrase searching. Note that the NLTK `word_tokenizer()` function used depends on the NLTK's "punkt" data set, which does not automatically download via the `pip install nltk` command. You may need to run the following command in a Python terminal session:
+
+```bash
+>>> import nltk
+>>> nltk.download("punkt")
+```
