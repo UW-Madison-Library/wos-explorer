@@ -38,12 +38,7 @@ class PhraseMatcher:
         self.fields        = fields
 
     def matches(self, article):
-        values = []
-        if len(self.fields) > 0:
-            for field in self.fields:
-                values.append(article[field])
-        else:
-            values = article.values()
+        values = article.values(self.fields)
 
         # Convert the document's fields into lists of words (simple whitespace split)
         article_terms = [word_tokenize(field_val) for field_val in values if field_val is not None]

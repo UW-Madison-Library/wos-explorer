@@ -10,8 +10,14 @@ class Article:
     def __getitem__(self, arg):
         return self.data[arg]
 
-    def values(self):
-        return self._collect_values(self.data, [])
+    def values(self, fields = []):
+        if len(fields) == 0:
+            return self._collect_values(self.data, [])
+        else:
+            data = dict()
+            for field in fields:
+                data[field] = self.data[field]
+            return self._collect_values(data, [])
 
     def matches(self, criteria):
         return criteria.matches(self)

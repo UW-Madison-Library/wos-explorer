@@ -16,3 +16,8 @@ def test_reference_list_parsing(single_article):
 def test_reference_list_parsing_when_empty(single_article_no_refs):
     assert single_article_no_refs.references() is not None
     assert len(single_article_no_refs.references()) == 0
+
+def test_get_custom_values_list(single_article):
+    print(single_article.values(["title", "keywords"]))
+    custom_values = ["Synthesis and colloid-chemical properties of new quaternary ammonium compounds", "SURFACTANTS"]
+    assert single_article.values(["title", "keywords"]) == custom_values
