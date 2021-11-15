@@ -45,6 +45,23 @@ def test_phrase_matching_for_wildcard(articles_sample, output_filepath):
     matches = ArticleCollection(articles_sample).select(PhraseMatcher("of the*", ["abstract_text"]), output_filepath)
     assert sum(1 for article in matches) == 3
 
+def test_querying_using_boolean_or(articles_sample, output_filepath):
+    matchers = [PhraseMatcher("synthesis", ["title"]), PhraseMatcher("animal studies", ["title"])]
+    matches = ArticleCollection(articles_sample).select(Query(matchers, "or"), output_filepath)
+    assert sum(1 for article in matches) == 2
+
+def test_querying_using_boolean_and(articles_sample, output_filepath):
+    matchers = [PhraseMatcher("similar*", ["abstract_text"]), PhraseMatcher("abnormal", ["abstract_text"])]
+    matches = ArticleCollection(articles_sample).select(Query(matchers, "and"), output_filepath)
+    assert sum(1 for article in matches) == 2
+
+def test_querying_using_multiple_queries(articles_sample, output_filepath):
+    query1 = Query([PhraseMatcher("similar", ["abstract_text"]), PhraseMatcher("similarities", ["abstract_text"])], "or")
+    query2 = Query([PhraseMatcher("fetal",   ["abstract_text"]), PhraseMatcher("cells",        ["abstract_text"])], "or")
+    matches = ArticleCollection(articles_sample).select(Query([query1, query2], "and"), output_filepath)
+    assert sum(1 for article in matches) == 2
+
+
 def test_affiliation_matching_from_set(affiliated_sample, output_filepath):
     uwmadison_names = {"University of Wisconsin Madison", "Univ Wisconsin", "University Wisconsin Health"}
     matches = ArticleCollection(affiliated_sample).select(AffiliationMatcher(uwmadison_names), output_filepath)

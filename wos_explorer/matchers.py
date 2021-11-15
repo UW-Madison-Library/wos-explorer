@@ -3,6 +3,20 @@ from nltk.util import ngrams
 from nltk import word_tokenize
 
 
+class Query:
+
+    def __init__(self, matchers, operator):
+        self.matchers = matchers
+        self.operator = operator
+
+    def matches(self, article):
+        individual_matches = [matcher.matches(article) for matcher in self.matchers]
+        if (self.operator == "or"):
+            return any(individual_matches)
+        else:
+            return all(individual_matches)
+
+
 class IdMatcher:
 
     def __init__(self, ids):
