@@ -77,10 +77,10 @@ def affiliated_address(address):
 class SourceTitleMatcher:
 
     def __init__(self, source_titles):
-        self.source_titles = set(source_titles)
+        self.source_titles = set([title.lower() for title in source_titles])
 
     def matches(self, article):
-        if article["source_title"] is not None and article["source_title"] in self.source_titles:
+        if article["source_title"] is not None and article["source_title"].lower() in self.source_titles:
             return True
         return  False
 

@@ -77,6 +77,11 @@ def test_source_title_matching(articles_sample, output_filepath):
     matches = ArticleCollection(articles_sample).select(SourceTitleMatcher(journal_titles), output_filepath)
     assert sum(1 for article in matches) == 2
 
+def test_case_insensitive_source_title_matching(articles_sample, output_filepath):
+    journal_titles = ["Theoretical Foundations of Chemical Engineering", "Down Beat"]
+    matches = ArticleCollection(articles_sample).select(SourceTitleMatcher(journal_titles), output_filepath)
+    assert sum(1 for article in matches) == 2
+
 def test_reflist_ids(articles_sample_reflist):
     assert len(articles_sample_reflist.ids()) == 42
 
