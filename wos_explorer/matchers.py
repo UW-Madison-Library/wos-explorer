@@ -31,11 +31,12 @@ class IdMatcher:
 
 class PhraseMatcher:
 
-    def __init__(self, phrase, fields = []):
+    def __init__(self, phrase, fields = [], exclude_phrase = False):
         self.search_tokens = [p if p[len(p) - 1] == "*" else p.strip() + "$" for p in phrase.split()]
         self.search_tokens = [p if p[0] == "*" else "^" + p.strip() for p in self.search_tokens]
         self.patterns      = [re.compile(search_str, re.IGNORECASE) for search_str in self.search_tokens]
         self.fields        = fields
+        self.exclude_phrase   = exclude_phrase
 
     def matches(self, article):
         values = article.values(self.fields)
@@ -51,10 +52,10 @@ class PhraseMatcher:
             # Search the document's n-gram items for matches against the search phrase's patterns. The n-gram tuple order
             # must match the phrase pattern order.
             if any([ all([self.patterns[i].search(g) for i, g in enumerate(gram)]) for gram in n_grams ]):
-                return True
+                return False if self.exclude_phrase else True
 
         # If this line is hit, no tuples matched, so the current document is not a match.
-        return False
+        return True if self.exclude_phrase else False
 
 
 class AffiliationMatcher:

@@ -61,6 +61,14 @@ def test_querying_using_multiple_queries(articles_sample, output_filepath):
     matches = ArticleCollection(articles_sample).select(Query([query1, query2], "and"), output_filepath)
     assert sum(1 for article in matches) == 2
 
+def test_querying_using_boolean_not(articles_sample, output_filepath):
+    matches = ArticleCollection(articles_sample).select(PhraseMatcher("nuclear", ["abstract_text"], True), output_filepath)
+    assert sum(1 for article in matches) == 9
+
+def test_query_with_boolean_not(articles_sample, output_filepath):
+    query = Query([PhraseMatcher("abnormal", ["abstract_text"]), PhraseMatcher("ultrasound", ["abstract_text"], True)], "and")
+    matches = ArticleCollection(articles_sample).select(query, output_filepath)
+    assert [a["id"] for a in matches] == ["WOS:000252158100008"]
 
 def test_affiliation_matching_from_set(affiliated_sample, output_filepath):
     uwmadison_names = {"University of Wisconsin Madison", "Univ Wisconsin", "University Wisconsin Health"}
