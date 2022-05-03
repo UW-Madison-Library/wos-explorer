@@ -70,6 +70,17 @@ def test_query_with_boolean_not(articles_sample, output_filepath):
     matches = ArticleCollection(articles_sample).select(query, output_filepath)
     assert [a["id"] for a in matches] == ["WOS:000252158100008"]
 
+def test_nested_query(articles_sample, output_filepath):
+    matchers    = [PhraseMatcher("synthesis"), PhraseMatcher("morphological")]
+    inner_query = Query([PhraseMatcher("animal"), PhraseMatcher("bone")], "and")
+    outer_query = Query([*matchers, inner_query], "or")
+    matches     = ArticleCollection(articles_sample).select(outer_query, output_filepath)
+    assert sum(1 for article in matches) == 3
+
+def test_leftside_truncation(articles_sample, output_filepath):
+    matches = ArticleCollection(articles_sample).select(PhraseMatcher("*perties", ["abstract_text"]), output_filepath)
+    assert sum(1 for article in matches) == 1
+
 def test_affiliation_matching_from_set(affiliated_sample, output_filepath):
     uwmadison_names = {"University of Wisconsin Madison", "Univ Wisconsin", "University Wisconsin Health"}
     matches = ArticleCollection(affiliated_sample).select(AffiliationMatcher(uwmadison_names), output_filepath)

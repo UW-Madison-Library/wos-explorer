@@ -32,11 +32,11 @@ class IdMatcher:
 class PhraseMatcher:
 
     def __init__(self, phrase, fields = [], exclude_phrase = False):
-        self.search_tokens = [p if p[len(p) - 1] == "*" else p.strip() + "$" for p in phrase.split()]
-        self.search_tokens = [p if p[0] == "*" else "^" + p.strip() for p in self.search_tokens]
-        self.patterns      = [re.compile(search_str, re.IGNORECASE) for search_str in self.search_tokens]
-        self.fields        = fields
-        self.exclude_phrase   = exclude_phrase
+        self.search_tokens  = [p if p[len(p) - 1] == "*" else p.strip() + "$" for p in phrase.split()]
+        self.search_tokens  = [p[1:].strip() if p[0] == "*" else "^" + p.strip() for p in self.search_tokens]
+        self.patterns       = [re.compile(search_str, re.IGNORECASE) for search_str in self.search_tokens]
+        self.fields         = fields
+        self.exclude_phrase = exclude_phrase
 
     def matches(self, article):
         values = article.values(self.fields)
