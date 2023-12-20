@@ -43,3 +43,9 @@ class Article:
             if contents is not None:
                 values.append(str(contents))
         return values
+
+    def doi(self):
+        if self['identifiers'] is None:
+            return None
+
+        return next((identifier['value'] for identifier in self['identifiers'] if identifier['type'] == 'doi'), None)

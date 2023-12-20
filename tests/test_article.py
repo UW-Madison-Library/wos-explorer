@@ -21,3 +21,6 @@ def test_get_custom_values_list(single_article):
     print(single_article.values(["title", "keywords"]))
     custom_values = ["Synthesis and colloid-chemical properties of new quaternary ammonium compounds", "SURFACTANTS"]
     assert single_article.values(["title", "keywords"]) == custom_values
+
+def test_get_doi(single_article):
+    assert single_article.doi() == "10.1134/S004057950705034X"
