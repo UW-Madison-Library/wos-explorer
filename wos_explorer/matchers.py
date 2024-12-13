@@ -65,14 +65,11 @@ class AffiliationMatcher:
 
     def matches(self, article):
         if article["addresses"] is not None:
-            affil_addrs = filter(affiliated_address, [address for address in article["addresses"]])
+            affil_addrs = filter(lambda addr: addr["organizations"] is not None, [address for address in article["addresses"]])
             orgs = {org for address in affil_addrs for org in address["organizations"]}
             if len(self.names & orgs) > 0:
                 return True
         return False
-
-def affiliated_address(address):
-    return address["organizations"] is not None
 
 
 class SourceTitleMatcher:
@@ -97,3 +94,18 @@ class CitationMatcher:
             return True
         else:
             return False
+
+
+class IdentifierMatcher:
+
+    def __init__(self, type, identifiers):
+        self.type = type
+        self.identifiers = set(identifiers)
+
+    def matches(self, article):
+        if article["identifiers"] is not None:
+            type_identifiers = filter(lambda id: id["type"] == self.type, article["identifiers"])
+            id_values = {type_identifier["value"] for type_identifier in type_identifiers}
+            if len(self.identifiers & id_values) > 0:
+                return True
+        return False

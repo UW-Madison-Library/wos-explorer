@@ -123,3 +123,8 @@ def test_reference_list_years(single_article_path):
     expected = ['1996', '1997', '1998', '1999', '2000', '2001', '2003']
     ref_list = ArticleCollection(single_article_path).reference_list()
     assert sorted(ref_list.years()) == expected
+
+def test_doi_matching(articles_sample, output_filepath):
+    dois = ["10.1007/s00383-007-2029-0", "10.1134/S004057950705034X", "10.1007/second-one"]
+    matches = ArticleCollection(articles_sample).select(IdentifierMatcher("doi", dois), output_filepath)
+    assert sum(1 for _ in matches) == 3
