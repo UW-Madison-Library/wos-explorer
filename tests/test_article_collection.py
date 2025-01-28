@@ -86,6 +86,11 @@ def test_affiliation_matching_from_set(affiliated_sample, output_filepath):
     matches = ArticleCollection(affiliated_sample).select(AffiliationMatcher(uwmadison_names), output_filepath)
     assert sum(1 for article in matches) == 1
 
+def test_affiliation_country_matching(articles_sample, output_filepath):
+    country_names = ["USA", "India"]
+    matches = ArticleCollection(articles_sample).select(AffiliationMatcher(country_names, "country"), output_filepath)
+    assert sum(1 for article in matches) == 2
+
 def test_affiliation_matching_from_list(affiliated_sample, output_filepath):
     uwmadison_names = ["University of Wisconsin Madison", "Univ Wisconsin", "University Wisconsin Health"]
     matches = ArticleCollection(affiliated_sample).select(AffiliationMatcher(uwmadison_names), output_filepath)

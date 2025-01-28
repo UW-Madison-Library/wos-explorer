@@ -60,15 +60,23 @@ class PhraseMatcher:
 
 class AffiliationMatcher:
 
-    def __init__(self, institution_names):
-        self.names = set(institution_names)
+    def __init__(self, names, field = None):
+        self.search_field = field if field is not None else "organizations"
+        self.names = set(names)
 
     def matches(self, article):
         if article["addresses"] is not None:
-            affil_addrs = filter(lambda addr: addr["organizations"] is not None, [address for address in article["addresses"]])
-            orgs = {org for address in affil_addrs for org in address["organizations"]}
-            if len(self.names & orgs) > 0:
+            affil_addrs = filter(lambda addr: addr[self.search_field] is not None, article["addresses"])
+            matches = set()
+            for address in affil_addrs:
+                if type(address[self.search_field]) == list:
+                    matches.update(address[self.search_field])
+                else:
+                    matches.add(address[self.search_field])
+
+            if len(self.names & matches) > 0:
                 return True
+
         return False
 
 
