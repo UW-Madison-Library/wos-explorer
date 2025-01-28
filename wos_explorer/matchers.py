@@ -66,11 +66,11 @@ class AffiliationMatcher:
 
     def matches(self, article):
         if article["addresses"] is not None:
-            affil_addrs = filter(lambda addr: addr[self.search_field] is not None, article["addresses"])
             matches = set()
-            for address in affil_addrs:
+
+            for address in filter(lambda addr: addr[self.search_field] is not None, article["addresses"]):
                 if type(address[self.search_field]) == list:
-                    matches.update(address[self.search_field])
+                    matches.update([value["name"] if type(value) == dict else value for value in address[self.search_field]])
                 else:
                     matches.add(address[self.search_field])
 
