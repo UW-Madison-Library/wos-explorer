@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='wos_explorer',
-      version='0.9.0',
+      version='0.10.0',
       description='Utility scripts to find article records within the Web of Science data set.',
       long_description='Explore the JSON converted data representation of the Clarivate Web of Science data set. Requires institutional access to the data set.',
       classifiers=[
