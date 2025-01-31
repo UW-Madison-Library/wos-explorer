@@ -1,0 +1,410 @@
+{
+  "id": "WOS:000482104200082",
+  "title": "Caffe: Convolutional Architecture for Fast Feature Embedding",
+  "source_title": "PROCEEDINGS OF THE 2014 ACM CONFERENCE ON MULTIMEDIA (MM'14)",
+  "document_types": [
+    "Meeting"
+  ],
+  "editions": [
+    "WOS.ISTP"
+  ],
+  "names": [
+    {
+      "seq_no": 1,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": true,
+      "display_name": "Jia, Yangqing",
+      "first_name": "Yangqing",
+      "last_name": "Jia",
+      "email": "jiayq@eecs.berkeley.edu",
+      "role": "author",
+      "researcher_id": "CXG-8769-2022",
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": null,
+      "claim_status": false
+    },
+    {
+      "seq_no": 2,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": false,
+      "display_name": "Shelhamer, Evan",
+      "first_name": "Evan",
+      "last_name": "Shelhamer",
+      "email": "shelhamer@eecs.berkeley.edu",
+      "role": "author",
+      "researcher_id": "FTZ-2354-2022",
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": null,
+      "claim_status": false
+    },
+    {
+      "seq_no": 3,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": false,
+      "display_name": "Donahue, Jeff",
+      "first_name": "Jeff",
+      "last_name": "Donahue",
+      "email": "jdonahue@eecs.berkeley.edu",
+      "role": "author",
+      "researcher_id": "COJ-6232-2022",
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": null,
+      "claim_status": false
+    },
+    {
+      "seq_no": 4,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": false,
+      "display_name": "Karayev, Sergey",
+      "first_name": "Sergey",
+      "last_name": "Karayev",
+      "email": "sergeyk@eecs.berkeley.edu",
+      "role": "author",
+      "researcher_id": "FDF-7920-2022",
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": null,
+      "claim_status": false
+    },
+    {
+      "seq_no": 5,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": false,
+      "display_name": "Long, Jonathan",
+      "first_name": "Jonathan",
+      "last_name": "Long",
+      "email": "jonlong@eecs.berkeley.edu",
+      "role": "author",
+      "researcher_id": "DCS-3961-2022",
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": null,
+      "claim_status": false
+    },
+    {
+      "seq_no": 6,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": false,
+      "display_name": "Girshick, Ross",
+      "first_name": "Ross",
+      "last_name": "Girshick",
+      "email": "rbg@eecs.berkeley.edu",
+      "role": "author",
+      "researcher_id": "CSF-7354-2022",
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": null,
+      "claim_status": false
+    },
+    {
+      "seq_no": 7,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": false,
+      "display_name": "Guadarrama, Sergio",
+      "first_name": "Sergio",
+      "last_name": "Guadarrama",
+      "email": "sguada@eecs.berkeley.edu",
+      "role": "author",
+      "researcher_id": "CRX-6702-2022",
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": null,
+      "claim_status": false
+    },
+    {
+      "seq_no": 8,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": false,
+      "display_name": "Darrell, Trevor",
+      "first_name": "Trevor",
+      "last_name": "Darrell",
+      "email": "trevor@eecs.berkeley.edu",
+      "role": "author",
+      "researcher_id": "CNB-2500-2022",
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": null,
+      "claim_status": false
+    },
+    {
+      "seq_no": 9,
+      "address_numbers": null,
+      "reprint_author": false,
+      "display_name": "ACM",
+      "first_name": null,
+      "last_name": null,
+      "email": null,
+      "role": "book_corp",
+      "researcher_id": null,
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": null,
+      "claim_status": false
+    }
+  ],
+  "addresses": [
+    {
+      "number": 1,
+      "reprint_address": true,
+      "full_address": "UC Berkeley EECS, Berkeley, CA 94702 USA",
+      "organizations": [
+        {
+          "name": "UC Berkeley EECS",
+          "type": null
+        }
+      ],
+      "suborganizations": null,
+      "street": null,
+      "city": "Berkeley",
+      "state": "CA",
+      "country": "USA",
+      "zip": "94702",
+      "zip_location": null
+    }
+  ],
+  "publishers": [
+    {
+      "display_name": "ASSOC COMPUTING MACHINERY",
+      "full_name": "ASSOC COMPUTING MACHINERY",
+      "unified_name": "Assoc Computing Machinery"
+    }
+  ],
+  "conferences": [
+    {
+      "title": "ACM Conference on Multimedia (MM)",
+      "dates": [
+        "NOV 03-07, 2014"
+      ],
+      "sponsors": [
+        "Assoc Comp Machinery",
+        "ACM SIGMM",
+        "FXPAL",
+        "Google",
+        "IBM",
+        "Microsoft Res",
+        "NASA Florida Space Grant Consortium",
+        "Yahoo Lab",
+        "Yandex"
+      ]
+    }
+  ],
+  "pub_type": "Book",
+  "vol": null,
+  "issue": null,
+  "pub_year": "2014",
+  "pub_month": null,
+  "pages": "675-678",
+  "languages": [
+    "English"
+  ],
+  "references": [
+    {
+      "id": "000482104200082.2",
+      "year": "2014",
+      "author": "Donahue, J.",
+      "title": "Decaf: A deep convolutional activation feature for generic visual recognition",
+      "work": "ICML",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 2,
+      "physical_sections": null
+    },
+    {
+      "id": "000482104200082.3",
+      "year": "2014",
+      "author": "Girshick, R.",
+      "title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+      "work": "CVPR",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 3,
+      "physical_sections": null
+    },
+    {
+      "id": "000482104200082.7",
+      "year": "2012",
+      "author": "Krizhevsky, A.",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "work": "NIPS",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 7,
+      "physical_sections": null
+    },
+    {
+      "id": "000482104200082.6",
+      "year": "2013",
+      "author": "Karayev, S.",
+      "title": "Recognizing image style",
+      "work": "arXiv preprint 1311. 3715",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 6,
+      "physical_sections": null
+    },
+    {
+      "id": "000482104200082.5",
+      "year": "2014",
+      "author": "Guadarrama, S.",
+      "title": "Open-vocabulary object retrieval",
+      "work": "RSS",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 5,
+      "physical_sections": null
+    },
+    {
+      "id": "000482104200082.10",
+      "year": "2014",
+      "author": "Zhang, N.",
+      "title": "Panda: Pose aligned networks for deep attribute modeling",
+      "work": "CVPR",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 10,
+      "physical_sections": null
+    },
+    {
+      "id": "000482104200082.8",
+      "year": "2014",
+      "author": "Sermanet, P.",
+      "title": "Overfeat: Integrated recognition, localization and detection using convolutional networks",
+      "work": "ICLR",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 8,
+      "physical_sections": null
+    },
+    {
+      "id": "000482104200082.4",
+      "year": "2013",
+      "author": "Goodfellow, I.",
+      "title": "Pylearn2: a machine learning research library",
+      "work": "arXiv preprint 1308. 4214",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 4,
+      "physical_sections": null
+    },
+    {
+      "id": "000482104200082.9",
+      "year": "2013",
+      "author": "Uijlings, J.",
+      "title": "Selective search for object recognition",
+      "work": "IJCV",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 9,
+      "physical_sections": null
+    },
+    {
+      "id": "000482104200082.1",
+      "year": "2011",
+      "author": "Collobert, R.",
+      "title": "Torch7: A MATLAB-like environment for machine learning",
+      "work": "BIGLEARN",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 1,
+      "physical_sections": null
+    }
+  ],
+  "headings": [
+    "Science & Technology"
+  ],
+  "sub_headings": [
+    "Technology"
+  ],
+  "subjects": [
+    "Engineering",
+    "Computer Science",
+    "Engineering, Electrical & Electronic",
+    "Computer Science, Theory & Methods"
+  ],
+  "keywords": [
+    "Open Source",
+    "Computer Vision",
+    "Neural Networks",
+    "Parallel Computation",
+    "Machine Learning"
+  ],
+  "abstract_text": "Caffe is maintained and developed by the Berkeley Vision and Learning Center (BVLC) with the help of an active community of contributors on GitHub. It powers ongoing research projects, large-scale industrial applications, and startup prototypes in vision, speech, and multimedia.",
+  "fund_text": null,
+  "grants": null,
+  "identifiers": [
+    {
+      "type": "accession_no",
+      "value": "BN4KT"
+    },
+    {
+      "type": "eisbn",
+      "value": "978-1-4503-3063-3"
+    },
+    {
+      "type": "doi",
+      "value": "10.1145/2647868.2654889"
+    }
+  ],
+  "open_access_statuses": null,
+  "early_access_month": null,
+  "early_access_year": null,
+  "citation_topics": [
+    {
+      "id": "4",
+      "type": "macro",
+      "subject": "Electrical Engineering, Electronics & Computer Science"
+    },
+    {
+      "id": "4.17",
+      "type": "meso",
+      "subject": "Computer Vision & Graphics"
+    },
+    {
+      "id": "4.17.128",
+      "type": "micro",
+      "subject": "Deep Learning"
+    }
+  ],
+  "un_sdgs": [
+    "03 Good Health and Well-being"
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "id": "WOS:000379940600013",
+  "alt_id": "WOS000379940600013",
+  "title": "Demonstration of Convolution Kernel Operation on Resistive Cross-Point Array",
+  "source_title": "IEEE ELECTRON DEVICE LETTERS",
+  "document_types": [
+    "Article"
+  ],
+  "editions": [
+    "WOS.SCI"
+  ],
+  "names": [
+    {
+      "seq_no": 1,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": false,
+      "display_name": "Gao, Ligang",
+      "first_name": "Ligang",
+      "last_name": "Gao",
+      "email": null,
+      "role": "author",
+      "researcher_id": "EWL-2863-2022",
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": null,
+      "claim_status": false
+    },
+    {
+      "seq_no": 2,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": false,
+      "display_name": "Chen, Pai-Yu",
+      "first_name": "Pai-Yu",
+      "last_name": "Chen",
+      "email": null,
+      "role": "author",
+      "researcher_id": "ESR-3747-2022",
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": null,
+      "claim_status": false
+    },
+    {
+      "seq_no": 3,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": true,
+      "display_name": "Yu, Shimeng",
+      "first_name": "Shimeng",
+      "last_name": "Yu",
+      "email": "shimengy@asu.edu",
+      "role": "author",
+      "researcher_id": "D-5704-2012",
+      "researcher_id_tr": null,
+      "orcid_id": "0000-0002-0068-3652",
+      "orcid_id_tr": null,
+      "claim_status": true
+    }
+  ],
+  "addresses": [
+    {
+      "number": 1,
+      "reprint_address": true,
+      "full_address": "Arizona State Univ, Sch Elect Comp & Energy Engn, Tempe, AZ 85287 USA",
+      "organizations": [
+        {
+          "name": "Arizona State Univ",
+          "type": null
+        },
+        {
+          "name": "Arizona State University",
+          "type": "Unified"
+        },
+        {
+          "name": "Arizona State University-Tempe",
+          "type": "Unified"
+        },
+        {
+          "name": "Arizona State University Ira A Fulton Schools of Engineering",
+          "type": "Department"
+        },
+        {
+          "name": "Arizona State University School of Electrical Computer and Energy Engineering",
+          "type": "Department"
+        }
+      ],
+      "suborganizations": [
+        "Sch Elect Comp & Energy Engn"
+      ],
+      "street": null,
+      "city": "Tempe",
+      "state": "AZ",
+      "country": "USA",
+      "zip": "85287",
+      "zip_location": null
+    }
+  ],
+  "publishers": [
+    {
+      "display_name": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC",
+      "full_name": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC",
+      "unified_name": "IEEE"
+    }
+  ],
+  "conferences": null,
+  "pub_type": "Journal",
+  "vol": "37",
+  "issue": "7",
+  "pub_year": "2016",
+  "pub_month": "JUL",
+  "pages": "870-873",
+  "languages": [
+    "English"
+  ],
+  "references": [
+    {
+      "id": "INSPEC:15325904",
+      "year": "2015",
+      "author": "Sangkil Kim",
+      "title": "A flexible hybrid printed RF energy harvester utilizing catalyst-based copper printing technologies for far-field RF energy harvesting applications",
+      "work": "2015 IEEE MTT-S International Microwave Symposium (IMS2015)",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 9,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000370384800165",
+      "year": "2014",
+      "author": "Wang, IT",
+      "title": "3D Synaptic Architecture with Ultralow sub-10 fJ Energy per Spike for Neuromorphic Computation",
+      "work": "2014 IEEE INTERNATIONAL ELECTRON DEVICES MEETING (IEDM)",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 16,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000358243500011",
+      "year": "2015",
+      "author": "Querlioz, D",
+      "title": "Bioinspired Programming of Memory Devices for Implementing an Inference Engine",
+      "work": "PROCEEDINGS OF THE IEEE",
+      "url": null,
+      "doi": "10.1109/JPROC.2015.2437616",
+      "page": "1398",
+      "volume": "103",
+      "occurrence_order": 14,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000355286600030",
+      "year": "2015",
+      "author": "LeCun, Y",
+      "title": "Deep learning",
+      "work": "NATURE",
+      "url": null,
+      "doi": "10.1038/nature14539",
+      "page": "436",
+      "volume": "521",
+      "occurrence_order": 11,
+      "physical_sections": null
+    },
+    {
+      "id": "INSPEC:17133663",
+      "year": "2017",
+      "author": "Krizhevsky, Alex",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "work": "Communications of the ACM",
+      "url": null,
+      "doi": null,
+      "page": "84",
+      "volume": "60",
+      "occurrence_order": 10,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000364094300014",
+      "year": "2015",
+      "author": "Gao, LG",
+      "title": "Programming Protocol Optimization for Analog Weight Tuning in Resistive Memories",
+      "work": "IEEE ELECTRON DEVICE LETTERS",
+      "url": null,
+      "doi": "10.1109/LED.2015.2481819",
+      "page": "1157",
+      "volume": "36",
+      "occurrence_order": 5,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000358507600020",
+      "year": "2015",
+      "author": "Garbin, D",
+      "title": "HfO<sub>2</sub>-Based OxRAM Devices as Synapses for Convolutional Neural Networks",
+      "work": "IEEE TRANSACTIONS ON ELECTRON DEVICES",
+      "url": null,
+      "doi": "10.1109/TED.2015.2440102",
+      "page": "2494",
+      "volume": "62",
+      "occurrence_order": 6,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000355252300013",
+      "year": "2015",
+      "author": "Fang, RC",
+      "title": "Low-Temperature Characteristics of HfO<i><sub>x</sub></i>-Based Resistive Random Access Memory",
+      "work": "IEEE ELECTRON DEVICE LETTERS",
+      "url": null,
+      "doi": "10.1109/LED.2015.2420665",
+      "page": "567",
+      "volume": "36",
+      "occurrence_order": 2,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000309840600006",
+      "year": "2012",
+      "author": "Wong, HSP",
+      "title": "Metal-Oxide RRAM",
+      "work": "PROCEEDINGS OF THE IEEE",
+      "url": null,
+      "doi": "10.1109/JPROC.2012.2190369",
+      "page": "1951",
+      "volume": "100",
+      "occurrence_order": 17,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000354040900032",
+      "year": "2015",
+      "author": "Prezioso, M",
+      "title": "Training andoperation of an integrated neuromorphic network based on metal-oxide memristors",
+      "work": "NATURE",
+      "url": null,
+      "doi": "10.1038/nature14441",
+      "page": "61",
+      "volume": "521",
+      "occurrence_order": 13,
+      "physical_sections": null
+    },
+    {
+      "id": "000379940600013.15",
+      "year": "2015",
+      "author": "Suri, M.",
+      "title": "OXRAM based ELM architecture for multi-class classification applications",
+      "work": "P INT JOINT C NEUR N",
+      "url": null,
+      "doi": null,
+      "page": "1",
+      "volume": null,
+      "occurrence_order": 15,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000353907300001",
+      "year": "2015",
+      "author": "Park, S",
+      "title": "Electronic system with memristive synapses for pattern recognition",
+      "work": "SCIENTIFIC REPORTS",
+      "url": null,
+      "doi": "10.1038/srep10123",
+      "page": "ARTN 10123",
+      "volume": "5",
+      "occurrence_order": 12,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000363459900005",
+      "year": "2015",
+      "author": "Gao, LG",
+      "title": "Fully parallel write/read in resistive synaptic array for accelerating on-chip learning",
+      "work": "NANOTECHNOLOGY",
+      "url": null,
+      "doi": "10.1088/0957-4484/26/45/455204",
+      "page": "ARTN 455204",
+      "volume": "26",
+      "occurrence_order": 3,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000339463100055",
+      "year": "2014",
+      "author": "Gao, B",
+      "title": "Ultra-Low-Energy Three-Dimensional Oxide-Based Electronic Synapses for Implementation of Robust High-Accuracy Neuromorphic Computation Systems",
+      "work": "ACS NANO",
+      "url": null,
+      "doi": "10.1021/nn501824r",
+      "page": "6998",
+      "volume": "8",
+      "occurrence_order": 4,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000343704900011",
+      "year": "2014",
+      "author": "Hu, M",
+      "title": "Memristor Crossbar-Based Neuromorphic Computing System: A Case Study",
+      "work": "IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS",
+      "url": null,
+      "doi": "10.1109/TNNLS.2013.2296777",
+      "page": "1864",
+      "volume": "25",
+      "occurrence_order": 7,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000346509500154",
+      "year": "2013",
+      "author": "Eryilmaz, SB",
+      "title": "Experimental Demonstration of Array-level Learning with Phase Change Synaptic Devices",
+      "work": "2013 IEEE INTERNATIONAL ELECTRON DEVICES MEETING (IEDM)",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 1,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000298943100068",
+      "year": "2012",
+      "author": "Kim, KH",
+      "title": "A Functional Hybrid Memristor Crossbar-Array/CMOS System for Data Storage and Neuromorphic Applications",
+      "work": "NANO LETTERS",
+      "url": null,
+      "doi": "10.1021/nl203687n",
+      "page": "389",
+      "volume": "12",
+      "occurrence_order": 8,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000312894500006",
+      "year": "2013",
+      "author": "Yang, JJS",
+      "title": "Memristive devices for computing",
+      "work": "NATURE NANOTECHNOLOGY",
+      "url": null,
+      "doi": "10.1038/NNANO.2012.240",
+      "page": "13",
+      "volume": "8",
+      "occurrence_order": 18,
+      "physical_sections": null
+    }
+  ],
+  "headings": [
+    "Science & Technology"
+  ],
+  "sub_headings": [
+    "Technology"
+  ],
+  "subjects": [
+    "Engineering",
+    "Engineering, Electrical & Electronic"
+  ],
+  "keywords": [
+    "Convolution kernel",
+    "neuromorphic computing",
+    "cross-point array",
+    "resistive memory",
+    "DEVICES",
+    "SYNAPSES"
+  ],
+  "abstract_text": "Convolution is the key operation in the convolutional neural network, one of the most popular deep learning algorithms. The implementation of the convolution kernel on the resistive cross-point array is different than the implementation of the matrix-vector multiplication in prior works. In this letter, we propose a dimensional reduction of 2-D kernel matrix into 1-D column vector, i.e., a column of the array, and enable the parallel readout of multiple 2-D kernels simultaneously. As a proof-of-concept demonstration, we use the Prewitt kernels to detect both horizontal and vertical edges of the 20 x 20 pixels of black-and-white MNIST handwritten digits. The experiments were performed on the fabricated 12 x 12 resistive cross-point array based on the Pt/HfOx/TiN structure. The experimental results of the Prewitt kernel operation perfectly matches the simulation results, indicating the feasibility of the proposed implementation methodology of the convolution kernel on resistive cross-point array.",
+  "fund_text": "This work was supported by the NSF-CCF-1552687. The review of this letter was arranged by Editor B. Govoreanu. (Corresponding author: Shimeng Yu.)",
+  "grants": [
+    {
+      "agency": null,
+      "source": null,
+      "pref_agency_names": [],
+      "ids": [
+        "NSF-CCF-1552687"
+      ],
+      "projects": null
+    },
+    {
+      "agency": "Division of Computing and Communication Foundations; Direct For Computer & Info Scie & Enginr",
+      "source": "National Science Foundation",
+      "pref_agency_names": [
+        "National Science Foundation (NSF)",
+        "NSF - Directorate for Computer & Information Science & Engineering (CISE)",
+        "National Science Foundation (NSF)",
+        "NSF - Directorate for Computer & Information Science & Engineering (CISE)"
+      ],
+      "ids": [
+        "1552687"
+      ],
+      "projects": [
+        {
+          "id": "1552687",
+          "title": "CAREER: Scaling-up Resistive Synaptic Arrays for Neuro-inspired Computing",
+          "total_award_amount": 239688.0,
+          "currency": "USD",
+          "start_date": "2016-02-01",
+          "end_date": "2018-12-31",
+          "principal_investigators": [
+            {
+              "name": "Yu, Shimeng",
+              "institutions": [
+                "Arizona State University"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "type": "accession_no",
+      "value": "DR5JZ"
+    },
+    {
+      "type": "issn",
+      "value": "0741-3106"
+    },
+    {
+      "type": "eissn",
+      "value": "1558-0563"
+    },
+    {
+      "type": "doi",
+      "value": "10.1109/LED.2016.2573140"
+    }
+  ],
+  "open_access_statuses": null,
+  "early_access_month": null,
+  "early_access_year": null,
+  "citation_topics": [
+    {
+      "id": "5",
+      "type": "macro",
+      "subject": "Physics"
+    },
+    {
+      "id": "5.310",
+      "type": "meso",
+      "subject": "Resistive Switching"
+    },
+    {
+      "id": "5.310.1164",
+      "type": "micro",
+      "subject": "Resistive Switching"
+    }
+  ],
+  "un_sdgs": [
+    "11 Sustainable Cities and Communities"
+  ]
+}
