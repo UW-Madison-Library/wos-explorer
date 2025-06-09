@@ -1,0 +1,1218 @@
+{
+  "id": "WOS:001192754300001",
+  "title": "User Study to Validate the Performance of an Offline Robot Programming Method That Enables Robot-Independent Kinesthetic Instruction through the Use of Augmented Reality and Motion Capturing",
+  "source_title": "ROBOTICS",
+  "document_types": [
+    "Article"
+  ],
+  "editions": [
+    "WOS.ESCI"
+  ],
+  "names": [
+    {
+      "seq_no": 1,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": true,
+      "display_name": "Mueller, Fabian",
+      "first_name": "Fabian",
+      "last_name": "Mueller",
+      "email": "fabian.mueller@th-nuernberg.de",
+      "role": "author",
+      "researcher_id": "HMG-3441-2023",
+      "researcher_id_tr": null,
+      "orcid_id": "0000-0002-7289-7502",
+      "orcid_id_tr": "0000-0002-7289-7502",
+      "claim_status": false
+    },
+    {
+      "seq_no": 2,
+      "address_numbers": [
+        1
+      ],
+      "reprint_author": false,
+      "display_name": "Koch, Michael",
+      "first_name": "Michael",
+      "last_name": "Koch",
+      "email": "michael.koch@th-nuernberg.de",
+      "role": "author",
+      "researcher_id": "JUK-5593-2023",
+      "researcher_id_tr": null,
+      "orcid_id": "0000-0003-2113-588X",
+      "orcid_id_tr": "0000-0003-4541-0268",
+      "claim_status": false
+    },
+    {
+      "seq_no": 3,
+      "address_numbers": [
+        2
+      ],
+      "reprint_author": false,
+      "display_name": "Hasse, Alexander",
+      "first_name": "Alexander",
+      "last_name": "Hasse",
+      "email": "alexander.hasse@mb.tu-chemnitz.de",
+      "role": "author",
+      "researcher_id": "EZS-7120-2022",
+      "researcher_id_tr": null,
+      "orcid_id": null,
+      "orcid_id_tr": "0000-0002-6737-5152",
+      "claim_status": false
+    }
+  ],
+  "addresses": [
+    {
+      "number": 1,
+      "reprint_address": true,
+      "full_address": "TH Nurnberg Georg Simon Ohm, Dept Mech Engn & Bldg Serv Engn, D-90489 Nurnberg, Germany",
+      "organizations": [
+        {
+          "name": "TH Nurnberg Georg Simon Ohm",
+          "type": null,
+          "ror_id": null,
+          "org_id": null
+        }
+      ],
+      "suborganizations": [
+        "Dept Mech Engn & Bldg Serv Engn"
+      ],
+      "street": null,
+      "city": "Nurnberg",
+      "state": null,
+      "country": "Germany",
+      "zip": "D-90489",
+      "zip_location": null
+    },
+    {
+      "number": 2,
+      "reprint_address": false,
+      "full_address": "Tech Univ Chemnitz, Dept Mech Engn, D-09107 Chemnitz, Germany",
+      "organizations": [
+        {
+          "name": "Tech Univ Chemnitz",
+          "type": null,
+          "ror_id": null,
+          "org_id": null
+        },
+        {
+          "name": "Technische Universitat Chemnitz",
+          "type": "Unified",
+          "ror_id": "https://ror.org/00a208s56",
+          "org_id": "30100007291143"
+        },
+        {
+          "name": "Chemnitz University of Technology Department of Mechanical Engineering",
+          "type": "Department",
+          "ror_id": null,
+          "org_id": "70000000055795"
+        }
+      ],
+      "suborganizations": [
+        "Dept Mech Engn"
+      ],
+      "street": null,
+      "city": "Chemnitz",
+      "state": null,
+      "country": "Germany",
+      "zip": "D-09107",
+      "zip_location": null
+    }
+  ],
+  "publishers": [
+    {
+      "display_name": "MDPI",
+      "full_name": "MDPI",
+      "unified_name": "Mdpi"
+    }
+  ],
+  "conferences": null,
+  "pub_type": "Journal",
+  "vol": "13",
+  "issue": "3",
+  "pub_year": "2024",
+  "pub_month": "MAR",
+  "pages": null,
+  "languages": [
+    "English"
+  ],
+  "references": [
+    {
+      "id": "WOS:000498936900002",
+      "year": "2020",
+      "author": "Ong, SK",
+      "title": "AR-assisted robot welding programming",
+      "work": "ADVANCES IN MANUFACTURING",
+      "url": null,
+      "doi": "10.1007/s40436-019-00283-0",
+      "page": "40",
+      "volume": "8",
+      "occurrence_order": 16,
+      "physical_sections": [
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.13339351,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.5. Online Programming Methods",
+          "location": 0.2622913,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.36949864,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000477983400043",
+      "year": "2019",
+      "author": "Steinmetz, F",
+      "title": "Intuitive Task-Level Programming by Demonstration Through Semantic Skill Recognition",
+      "work": "IEEE ROBOTICS AND AUTOMATION LETTERS",
+      "url": null,
+      "doi": "10.1109/LRA.2019.2928782",
+      "page": "3742",
+      "volume": "4",
+      "occurrence_order": 10,
+      "physical_sections": [
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.10013458,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.13335054,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.5. Online Programming Methods",
+          "location": 0.24303468,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "001192754300001.13",
+      "year": "2010",
+      "author": "Naumann, A.",
+      "title": "Benchmarks for intuitive interaction with mobile devices",
+      "work": "P 12 INT C HUMAN COM",
+      "url": null,
+      "doi": null,
+      "page": "401",
+      "volume": null,
+      "occurrence_order": 13,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000668324400020",
+      "year": "2020",
+      "author": "Schwandt, A",
+      "title": "Intuitive Industrial Robot Programming Interface with Augmented Reality Environment",
+      "work": "ROBOTICS: INDUSTRY 4.0 ISSUES & NEW INTELLIGENT CONTROL PARADIGMS",
+      "url": null,
+      "doi": "10.1007/978-3-030-37841-7_19",
+      "page": "231",
+      "volume": "272",
+      "occurrence_order": 33,
+      "physical_sections": [
+        {
+          "label": "2.5. Online Programming Methods",
+          "location": 0.2917991,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.36776626,
+          "section": "Methods",
+          "function": "discuss"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.3783896,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000618744800020",
+      "year": "2020",
+      "author": "Dahms, C",
+      "title": "The importance of different learning stages for motor sequence learning after stroke",
+      "work": "HUMAN BRAIN MAPPING",
+      "url": null,
+      "doi": "10.1002/hbm.24793",
+      "page": "270",
+      "volume": "41",
+      "occurrence_order": 44,
+      "physical_sections": [
+        {
+          "label": "4.3.5. Learning Progress",
+          "location": 0.79884315,
+          "section": "Methods",
+          "function": "discuss"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000458872701136",
+      "year": "2018",
+      "author": "Quintero, CP",
+      "title": "Robot Programming Through Augmented Trajectories in Augmented Reality",
+      "work": "2018 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS (IROS)",
+      "url": null,
+      "doi": null,
+      "page": "1838",
+      "volume": null,
+      "occurrence_order": 17,
+      "physical_sections": [
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.13343647,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.13886264,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.14793976,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.31038284,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.3499413,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.37728718,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.3923632,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "6. Conclusions",
+          "location": 0.9460241,
+          "section": "Discussion",
+          "function": "discuss"
+        }
+      ]
+    },
+    {
+      "id": "001192754300001.32",
+      "year": "2024",
+      "author": "ArtiMinds Robotics GmbH",
+      "title": null,
+      "work": "Robot Programming Suite for Universal Programming of Industrial Robots",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 32,
+      "physical_sections": null
+    },
+    {
+      "id": "001192754300001.22",
+      "year": "2020",
+      "author": "Calinon, S.",
+      "title": "Learning from Demonstration (Programming by Demonstration)",
+      "work": "Encyclopedia of Robotics",
+      "url": null,
+      "doi": null,
+      "page": "1",
+      "volume": null,
+      "occurrence_order": 22,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000413719900020",
+      "year": "2016",
+      "author": "Li, HY",
+      "title": "Simultaneous Hand-Eye and Robot- World Calibration by Solving the <i>AX</i> = <i>YB</i> Problem Without Correspondence",
+      "work": "IEEE ROBOTICS AND AUTOMATION LETTERS",
+      "url": null,
+      "doi": "10.1109/LRA.2015.2506663",
+      "page": "145",
+      "volume": "1",
+      "occurrence_order": 28,
+      "physical_sections": [
+        {
+          "label": "2.3. Programming Methods Based on Demonstration",
+          "location": 0.19021848,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": null,
+      "year": null,
+      "author": null,
+      "title": null,
+      "work": null,
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 40,
+      "physical_sections": [
+        {
+          "label": "4.3.5. Learning Progress",
+          "location": 0.7938035,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000388837200094",
+      "year": "2016",
+      "author": null,
+      "title": "Springer Handbook of Robotics",
+      "work": "SPRINGER HANDBOOK OF ROBOTICS",
+      "url": null,
+      "doi": "10.1007/978-3-319-32552-1",
+      "page": "1",
+      "volume": null,
+      "occurrence_order": 23,
+      "physical_sections": [
+        {
+          "label": "2.3. Programming Methods Based on Demonstration",
+          "location": 0.17761934,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "001192754300001.5",
+      "year": "2012",
+      "author": "Dietz, T.",
+      "title": "Programming System for Efficient Use of Industrial Robots for Deburring in SME Environments",
+      "work": "P ROBOTIK 2012 7 GER",
+      "url": null,
+      "doi": null,
+      "page": "1",
+      "volume": null,
+      "occurrence_order": 5,
+      "physical_sections": null
+    },
+    {
+      "id": "001192754300001.12",
+      "year": "1990",
+      "author": null,
+      "title": null,
+      "work": "ISO 9283:1998(en) Manipulating Industrial Robots-Performance Criteria and Related Test Methods",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 12,
+      "physical_sections": null
+    },
+    {
+      "id": "001192754300001.36",
+      "year": "2024",
+      "author": "HTC Corporation",
+      "title": null,
+      "work": "SRWorks Introduction",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 36,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000533896300031",
+      "year": "2019",
+      "author": "Bambusek, D",
+      "title": "Combining Interactive Spatial Augmented Reality with Head-Mounted Display for End-User Collaborative Robot Programming",
+      "work": "2019 28TH IEEE INTERNATIONAL CONFERENCE ON ROBOT AND HUMAN INTERACTIVE COMMUNICATION (RO-MAN)",
+      "url": null,
+      "doi": "10.1109/ro-man46459.2019.8956315",
+      "page": null,
+      "volume": null,
+      "occurrence_order": 18,
+      "physical_sections": [
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.13347945,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.13890561,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.32819346,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.33426395,
+          "section": "Methods",
+          "function": "discuss"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.3677233,
+          "section": "Methods",
+          "function": "discuss"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.37733015,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.39240617,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000407729700021",
+      "year": "2017",
+      "author": "Dhawale, AK",
+      "title": "The Role of Variability in Motor Learning",
+      "work": "ANNUAL REVIEW OF NEUROSCIENCE, VOL 40",
+      "url": null,
+      "doi": "10.1146/annurev-neuro-072116-031548",
+      "page": "479",
+      "volume": "40",
+      "occurrence_order": 42,
+      "physical_sections": [
+        {
+          "label": "4.3.5. Learning Progress",
+          "location": 0.79388946,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "001192754300001.6",
+      "year": "2019",
+      "author": "Muller, R.",
+      "title": null,
+      "work": "Handbuch Mensch-Roboter-Kollaboration",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 6,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000496834800020",
+      "year": "2020",
+      "author": "Ong, SK",
+      "title": "Augmented reality-assisted robot programming system for industrial applications",
+      "work": "ROBOTICS AND COMPUTER-INTEGRATED MANUFACTURING",
+      "url": null,
+      "doi": "10.1016/j.rcim.2019.101820",
+      "page": "ARTN 101820",
+      "volume": "61",
+      "occurrence_order": 3,
+      "physical_sections": [
+        {
+          "label": "1. Introduction",
+          "location": 0.006270939,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "1. Introduction",
+          "location": 0.009435043,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.10392864,
+          "section": "Introduction",
+          "function": "discuss"
+        },
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.110185266,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.13332188,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.5. Online Programming Methods",
+          "location": 0.2625347,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.36946997,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.376242,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000458872701137",
+      "year": "2018",
+      "author": "Zeylikman, S",
+      "title": "The HRC Model Set for Human-Robot Collaboration Research",
+      "work": "2018 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS (IROS)",
+      "url": null,
+      "doi": null,
+      "page": "1845",
+      "volume": null,
+      "occurrence_order": 38,
+      "physical_sections": [
+        {
+          "label": "4.2. Study Design",
+          "location": 0.6809982,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "4.2. Study Design",
+          "location": 0.68181425,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "001192754300001.34",
+      "year": "2021",
+      "author": "Pauly, L.",
+      "title": "Seeing to Learn: Observational Learning of Robotic Manipulation Tasks",
+      "work": "Ph.D. Thesis",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 34,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000297780000001",
+      "year": "2012",
+      "author": "Pan, ZX",
+      "title": "Recent progress on programming methods for industrial robots",
+      "work": "ROBOTICS AND COMPUTER-INTEGRATED MANUFACTURING",
+      "url": null,
+      "doi": "10.1016/j.rcim.2011.08.004",
+      "page": "87",
+      "volume": "28",
+      "occurrence_order": 9,
+      "physical_sections": [
+        {
+          "label": "2.1. Overview of Modern Programming Methods",
+          "location": 0.09575356,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000534341200012",
+      "year": "2020",
+      "author": "Ravichandar, H",
+      "title": "Recent Advances in Robot Learning from Demonstration",
+      "work": "ANNUAL REVIEW OF CONTROL, ROBOTICS, AND AUTONOMOUS SYSTEMS, VOL 3, 2020",
+      "url": null,
+      "doi": "10.1146/annurev-control-100819-063206",
+      "page": "297",
+      "volume": "3",
+      "occurrence_order": 26,
+      "physical_sections": [
+        {
+          "label": "2.3. Programming Methods Based on Demonstration",
+          "location": 0.18128455,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000235387900013",
+      "year": "2006",
+      "author": "Krakauer, JW",
+      "title": "Motor learning: its relevance to stroke recovery and neurorehabilitation",
+      "work": "CURRENT OPINION IN NEUROLOGY",
+      "url": null,
+      "doi": null,
+      "page": "84",
+      "volume": "19",
+      "occurrence_order": 43,
+      "physical_sections": [
+        {
+          "label": "4.3.5. Learning Progress",
+          "location": 0.79393244,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "WOS:A1977CZ89100002",
+      "year": "1977",
+      "author": "TAMHANE, AC",
+      "title": "MULTIPLE COMPARISONS IN MODEL-I ONE-WAY ANOVA WITH UNEQUAL VARIANCES",
+      "work": "COMMUNICATIONS IN STATISTICS PART A-THEORY AND METHODS",
+      "url": null,
+      "doi": null,
+      "page": "15",
+      "volume": "6",
+      "occurrence_order": 45,
+      "physical_sections": [
+        {
+          "label": "4.3.5. Learning Progress",
+          "location": 0.8329468,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "5.5. Learning Progress",
+          "location": 0.91262203,
+          "section": "Results",
+          "function": "discuss"
+        }
+      ]
+    },
+    {
+      "id": "001192754300001.15",
+      "year": "2006",
+      "author": "Hart, S.G.",
+      "title": "Nasa-Task Load Index (NASA-TLX); 20 Years Later",
+      "work": "Proc. Hum. Factors Ergon. Soc. Annu. Meet",
+      "url": null,
+      "doi": null,
+      "page": "904",
+      "volume": "50",
+      "occurrence_order": 15,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:001062676000001",
+      "year": "2021",
+      "author": "Si, WY",
+      "title": "A review on manipulation skill acquisition through teleoperation-based learning from demonstration",
+      "work": "COGNITIVE COMPUTATION AND SYSTEMS",
+      "url": null,
+      "doi": "10.1049/ccs2.12005",
+      "page": "1",
+      "volume": "3",
+      "occurrence_order": 24,
+      "physical_sections": [
+        {
+          "label": "2.3. Programming Methods Based on Demonstration",
+          "location": 0.17766231,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000467722000007",
+      "year": "2018",
+      "author": "Zhu, ZY",
+      "title": "Robot Performing Peg-in-Hole Operations by Learning from Human Demonstration",
+      "work": "2018 10TH COMPUTER SCIENCE AND ELECTRONIC ENGINEERING CONFERENCE (CEEC)",
+      "url": null,
+      "doi": null,
+      "page": "30",
+      "volume": null,
+      "occurrence_order": 20,
+      "physical_sections": [
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.14802569,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.4. Experimental Programming Methods",
+          "location": 0.22047076,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "2.6. Offline Programming Methods",
+          "location": 0.33161527,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "BCI:BCI198937014416",
+      "year": "1988",
+      "author": "HART S G",
+      "title": "DEVELOPMENT OF NASA-TLX TASK LOAD INDEX RESULTS OF EMPIRICAL AND THEORETICAL RESEARCH",
+      "work": "HANCOCK, P. A. AND N. MESHKATI (ED.). ADVANCES IN PSYCHOLOGY, VOL. 52. HUMAN MENTAL WORKLOAD. XVI+382P. ELSEVIER SCIENCE PUBLISHERS B.V.: AMSTERDAM, NETHERLANDS; NEW YORK, NEW YORK, USA. ILLUS",
+      "url": null,
+      "doi": null,
+      "page": "139",
+      "volume": null,
+      "occurrence_order": 14,
+      "physical_sections": [
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.12971394,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "4.3.4. Measuring the Ease of Use",
+          "location": 0.7707671,
+          "section": "Methods",
+          "function": "basis"
+        },
+        {
+          "label": "6. Conclusions",
+          "location": 0.950262,
+          "section": "Discussion",
+          "function": "discuss"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000500198400009",
+      "year": "2019",
+      "author": "de Bellis, E",
+      "title": "Personalizing the Customization Experience: A Matching Theory of Mass Customization Interfaces and Cultural Information Processing",
+      "work": "JOURNAL OF MARKETING RESEARCH",
+      "url": null,
+      "doi": "10.1177/0022243719867698",
+      "page": "1050",
+      "volume": "56",
+      "occurrence_order": 2,
+      "physical_sections": [
+        {
+          "label": "1. Introduction",
+          "location": 0.003006635,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000266122800001",
+      "year": "2009",
+      "author": "Argall, BD",
+      "title": "A survey of robot learning from demonstration",
+      "work": "ROBOTICS AND AUTONOMOUS SYSTEMS",
+      "url": null,
+      "doi": "10.1016/j.robot.2008.10.024",
+      "page": "469",
+      "volume": "57",
+      "occurrence_order": 8,
+      "physical_sections": [
+        {
+          "label": "2.1. Overview of Modern Programming Methods",
+          "location": 0.0957249,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.3. Programming Methods Based on Demonstration",
+          "location": 0.16426137,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "001192754300001.35",
+      "year": "2021",
+      "author": "Muller, F.",
+      "title": "Cyber-physical-system for representing a robot end effector",
+      "work": "Procedia CIRP",
+      "url": null,
+      "doi": null,
+      "page": "307",
+      "volume": "100",
+      "occurrence_order": 35,
+      "physical_sections": null
+    },
+    {
+      "id": "001192754300001.19",
+      "year": "2020",
+      "author": "Schmeckpeper, K.",
+      "title": "Learning Predictive Models from Observation and Interaction",
+      "work": "Proceedings of the Computer Vision-ECCV 2020",
+      "url": null,
+      "doi": null,
+      "page": "708",
+      "volume": null,
+      "occurrence_order": 19,
+      "physical_sections": null
+    },
+    {
+      "id": "001192754300001.7",
+      "year": "2021",
+      "author": "Maceiras, J.",
+      "title": "Online and Offline Robot Programming via Augmented Reality Workspaces",
+      "work": "arXiv",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 7,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000391921702116",
+      "year": "2016",
+      "author": "Ahmed, SM",
+      "title": "Object Detection and Motion Planning for Automated Welding of Tubular Joints",
+      "work": "2016 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS (IROS 2016)",
+      "url": null,
+      "doi": null,
+      "page": "2610",
+      "volume": null,
+      "occurrence_order": 4,
+      "physical_sections": [
+        {
+          "label": "1. Introduction",
+          "location": 0.014961487,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000379247600060",
+      "year": "2016",
+      "author": "Antonelli, D",
+      "title": "Qualification of a collaborative human-robot welding cell",
+      "work": "RESEARCH AND INNOVATION IN MANUFACTURING: KEY ENABLING TECHNOLOGIES FOR THE FACTORIES OF THE FUTURE - PROCEEDINGS OF THE 48TH CIRP CONFERENCE ON MANUFACTURING SYSTEMS",
+      "url": null,
+      "doi": "10.1016/j.procir.2015.12.036",
+      "page": "352",
+      "volume": "41",
+      "occurrence_order": 21,
+      "physical_sections": [
+        {
+          "label": "2.3. Programming Methods Based on Demonstration",
+          "location": 0.164333,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000470018600004",
+      "year": "2019",
+      "author": "Starke, S",
+      "title": "Memetic Evolution for Generic Full-Body Inverse Kinematics in Robotics and Animation",
+      "work": "IEEE TRANSACTIONS ON EVOLUTIONARY COMPUTATION",
+      "url": null,
+      "doi": "10.1109/TEVC.2018.2867601",
+      "page": "406",
+      "volume": "23",
+      "occurrence_order": 37,
+      "physical_sections": [
+        {
+          "label": "3.2. Prototypical System and Environment Implementation",
+          "location": 0.58880967,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000509476600174",
+      "year": "2019",
+      "author": "Wang, WT",
+      "title": "Learning and Comfort in Human-Robot Interaction: A Review",
+      "work": "APPLIED SCIENCES-BASEL",
+      "url": null,
+      "doi": "10.3390/app9235152",
+      "page": "ARTN 5152",
+      "volume": "9",
+      "occurrence_order": 27,
+      "physical_sections": [
+        {
+          "label": "2.3. Programming Methods Based on Demonstration",
+          "location": 0.1813275,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "001192754300001.31",
+      "year": "1999",
+      "author": "Lowe, D.",
+      "title": "Object recognition from local scale-invariant features",
+      "work": "P 7 IEEE INT C COMPU",
+      "url": null,
+      "doi": null,
+      "page": "1150",
+      "volume": "Volume 2",
+      "occurrence_order": 31,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000466820600012",
+      "year": "2019",
+      "author": "El Zaatari, S",
+      "title": "Cobot programming for collaborative industrial tasks: An overview",
+      "work": "ROBOTICS AND AUTONOMOUS SYSTEMS",
+      "url": null,
+      "doi": "10.1016/j.robot.2019.03.003",
+      "page": "162",
+      "volume": "116",
+      "occurrence_order": 29,
+      "physical_sections": [
+        {
+          "label": "2.3. Programming Methods Based on Demonstration",
+          "location": 0.19451366,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "001192754300001.39",
+      "year": "2018",
+      "author": "Witte, K.",
+      "title": "Bewegungskoordination",
+      "work": "Grundlagen der Sportmotorik im Bachelorstudium (Band 1)",
+      "url": null,
+      "doi": null,
+      "page": "129",
+      "volume": null,
+      "occurrence_order": 39,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000627406500088",
+      "year": "2020",
+      "author": "Heimann, O",
+      "title": "Industrial Robot Programming Methods: A Scoping Review",
+      "work": "2020 25TH IEEE INTERNATIONAL CONFERENCE ON EMERGING TECHNOLOGIES AND FACTORY AUTOMATION (ETFA)",
+      "url": null,
+      "doi": null,
+      "page": "696",
+      "volume": null,
+      "occurrence_order": 11,
+      "physical_sections": [
+        {
+          "label": "2.2. Validation of Programming Methods",
+          "location": 0.1140366,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "2.3. Programming Methods Based on Demonstration",
+          "location": 0.16429003,
+          "section": "Introduction",
+          "function": "background"
+        },
+        {
+          "label": "4.2. Study Design",
+          "location": 0.66051024,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    },
+    {
+      "id": "001192754300001.30",
+      "year": "2018",
+      "author": "Zhang, R.",
+      "title": "Stochastic Adversarial Video Prediction",
+      "work": "arXiv",
+      "url": null,
+      "doi": null,
+      "page": null,
+      "volume": null,
+      "occurrence_order": 30,
+      "physical_sections": null
+    },
+    {
+      "id": "WOS:000493481600001",
+      "year": "2019",
+      "author": "Akkaladevi, SC",
+      "title": "Skill-based programming of complex robotic assembly tasks for industrial application",
+      "work": "ELEKTROTECHNIK UND INFORMATIONSTECHNIK",
+      "url": null,
+      "doi": "10.1007/s00502-019-00741-4",
+      "page": "326",
+      "volume": "136",
+      "occurrence_order": 25,
+      "physical_sections": [
+        {
+          "label": "2.3. Programming Methods Based on Demonstration",
+          "location": 0.17770527,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "WOS:000475921300091",
+      "year": "2019",
+      "author": "Ji, W",
+      "title": "Industrial robotic machining: a review",
+      "work": "INTERNATIONAL JOURNAL OF ADVANCED MANUFACTURING TECHNOLOGY",
+      "url": null,
+      "doi": "10.1007/s00170-019-03403-z",
+      "page": "1239",
+      "volume": "103",
+      "occurrence_order": 1,
+      "physical_sections": [
+        {
+          "label": "1. Introduction",
+          "location": 0.00297798,
+          "section": "Introduction",
+          "function": "background"
+        }
+      ]
+    },
+    {
+      "id": "INSPEC:18246335",
+      "year": "2018",
+      "author": "Petri, K.",
+      "title": "Using Several Types of Virtual Characters in Sports - a Literature Survey",
+      "work": "International Journal of Computer Science in Sport",
+      "url": null,
+      "doi": null,
+      "page": "1",
+      "volume": "17",
+      "occurrence_order": 41,
+      "physical_sections": [
+        {
+          "label": "4.3.5. Learning Progress",
+          "location": 0.7938465,
+          "section": "Methods",
+          "function": "basis"
+        }
+      ]
+    }
+  ],
+  "headings": [
+    "Science & Technology"
+  ],
+  "sub_headings": [
+    "Technology"
+  ],
+  "subjects": [
+    "Robotics"
+  ],
+  "keywords": [
+    "robot programming",
+    "programming by demonstration",
+    "motion capture",
+    "augmented reality",
+    "performance evaluation",
+    "user study"
+  ],
+  "abstract_text": "The paper presents a novel offline programming (OLP) method based on programming by demonstration (PbD), which has been validated through user study. PbD is a programming method that involves physical interaction with robots, and kinesthetic teaching (KT) is a commonly used online programming method in industry. However, online programming methods consume significant robot resources, limiting the speed advantages of PbD and emphasizing the need for an offline approach. The method presented here, based on KT, uses a virtual representation instead of a physical robot, allowing independent programming regardless of the working environment. It employs haptic input devices to teach a simulated robot in augmented reality and uses automatic path planning. A benchmarking test was conducted to standardize equipment, procedures, and evaluation techniques to compare different PbD approaches. The results indicate a 47% decrease in programming time when compared to traditional KT methods in established industrial systems. Although the accuracy is not yet at the level of industrial systems, users have shown rapid improvement, confirming the learnability of the system. User feedback on the perceived workload and the ease of use was positive. In conclusion, this method has potential for industrial use due to its learnability, reduction in robot downtime, and applicability across different robot sizes and types.",
+  "fund_text": "We would like to thank all study participants for their time and commitment. This work was partly carried out as part of the project MRK&MoCap4Robots, funded by the German Federal Ministry of Education and Research (BMBF). We are thankful for the support and funding.",
+  "grants": [
+    {
+      "agency": "German Federal Ministry of Education and Research (BMBF)",
+      "source": null,
+      "pref_agency_names": [
+        "Federal Ministry of Education & Research (BMBF)"
+      ],
+      "ids": null,
+      "projects": null
+    }
+  ],
+  "identifiers": [
+    {
+      "type": "accession_no",
+      "value": "MH5U3"
+    },
+    {
+      "type": "eissn",
+      "value": "2218-6581"
+    },
+    {
+      "type": "art_no",
+      "value": "ARTN 35"
+    },
+    {
+      "type": "doi",
+      "value": "10.3390/robotics13030035"
+    }
+  ],
+  "open_access_statuses": [
+    "gold"
+  ],
+  "early_access_month": null,
+  "early_access_year": null,
+  "citation_topics": [
+    {
+      "id": "4",
+      "type": "macro",
+      "subject": "Electrical Engineering, Electronics & Computer Science"
+    },
+    {
+      "id": "4.284",
+      "type": "meso",
+      "subject": "Human Computer Interaction"
+    },
+    {
+      "id": "4.284.1027",
+      "type": "micro",
+      "subject": "Augmented Reality"
+    }
+  ],
+  "un_sdgs": null,
+  "data_availability_statement": null
+}

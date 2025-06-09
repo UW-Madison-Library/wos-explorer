@@ -117,3 +117,18 @@ class IdentifierMatcher:
             if len(self.identifiers & id_values) > 0:
                 return True
         return False
+
+
+class AuthorMatcher:
+
+    def __init__(self, fields, values):
+        self.fields = fields
+        self.values = set(values)
+
+    def matches(self, article):
+        if article["names"] is not None:
+            field_values = set([ name[field] for field in self.fields for name in article["names"] if field in name and name[field] is not None ])
+            if len(self.values & field_values) > 0:
+                return True
+
+        return False

@@ -52,3 +52,8 @@ def test_reference_searching():
     article = article_by_id("WOS-000482104200082")
     criteria = PhraseMatcher("machine* learning", ["references"])
     assert article.matches(criteria)
+
+def test_author_searching():
+    article = article_by_id("WOS-001192754300001")
+    criteria = AuthorMatcher(["orcid_id", "orcid_id_tr"], ["0000-0002-7289-7502"])
+    assert article.matches(criteria)

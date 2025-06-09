@@ -138,3 +138,9 @@ def test_doi_matching(articles_sample, output_filepath):
     dois = ["10.1007/s00383-007-2029-0", "10.1134/S004057950705034X", "10.1007/second-one"]
     matches = ArticleCollection(articles_sample).select(IdentifierMatcher("doi", dois), output_filepath)
     assert sum(1 for _ in matches) == 3
+
+def test_orcid_matching(affiliated_sample, output_filepath):
+    orcids = ["0000-0003-3068-504X"]
+    fields = ["orcid_id", "orcid_id_tr"]
+    matches = ArticleCollection(affiliated_sample).select(AuthorMatcher(fields, orcids), output_filepath)
+    assert sum(1 for _ in matches) == 1
